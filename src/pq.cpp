@@ -919,7 +919,7 @@ int generate_pq_data_from_pivots(const std::string &data_file, uint32_t num_cent
 #endif
         diskann::cout << ".done." << std::endl;
     }
-// Gopal. Splitting diskann_dll into separate DLLs for search and build.
+// Gopal. Splitting diskann into separate DLLs for search and build.
 // This code should only be available in the "build" DLL.
 #if defined(RELEASE_UNUSED_TCMALLOC_MEMORY_AT_CHECKPOINTS) && defined(DISKANN_BUILD)
     MallocExtension::instance()->ReleaseFreeMemory();

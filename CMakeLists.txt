@@ -25,6 +25,8 @@ if(NOT MSVC)
 	set(CMAKE_CXX_COMPILER g++)
 endif()
 
+set(RESTAPI ON)
+
 # Install nuget packages for dependencies.
 if (MSVC)
     find_program(NUGET_EXE NAMES nuget)

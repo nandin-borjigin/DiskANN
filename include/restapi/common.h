@@ -4,6 +4,7 @@
 #pragma once
 
 #include <cpprest/base_uri.h>
+#undef U
 #include <restapi/search_wrapper.h>
 
 namespace diskann
